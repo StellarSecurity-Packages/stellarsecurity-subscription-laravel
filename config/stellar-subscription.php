@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'base_url' => env('STELLAR_SUBSCRIPTION_BASE_URL'),
+    'base_url' => env('STELLAR_SUBSCRIPTION_BASE_URL', 'https://stellersubscriptionapiprod.azurewebsites.net/api/'),
 
     /*
     |--------------------------------------------------------------------------
