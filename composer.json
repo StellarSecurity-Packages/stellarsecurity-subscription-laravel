@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "StellarSecurity\\\\SubscriptionLaravel\\\\": "src/"
+            "StellarSecurity\\SubscriptionLaravel\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "StellarSecurity\\\\SubscriptionLaravel\\\\Providers\\\\SubscriptionServiceProvider"
+                "StellarSecurity\\SubscriptionLaravel\\Providers\\SubscriptionServiceProvider"
             ],
             "aliases": {
-                "StellarSubscription": "StellarSecurity\\\\SubscriptionLaravel\\\\Facades\\\\Subscription"
+                "StellarSubscription": "StellarSecurity\\SubscriptionLaravel\\Facades\\Subscription"
             }
         }
     },
