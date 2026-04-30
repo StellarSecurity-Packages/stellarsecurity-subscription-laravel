@@ -69,9 +69,9 @@ class SubscriptionService
     /**
      * GET /v1/subscriptioncontroller/user/subscriptions
      *
-     * Find subscriptions for a given user id.
+     * Find  subscriptions for a given user id with type (use NULL for all.)
      */
-    public function findUserSubscriptions(int $userId, int $type = 0): Response
+    public function findUserSubscriptions(int $userId, ?int $type = 0): Response
     {
         $url = $this->baseUrl . "v1/subscriptioncontroller/user/subscriptions";
 
