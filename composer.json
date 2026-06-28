@@ -28,7 +28,8 @@
         "StellarSecurity\\SubscriptionLaravel\\Providers\\SubscriptionServiceProvider"
       ],
       "aliases": {
-        "StellarSubscription": "StellarSecurity\\SubscriptionLaravel\\Facades\\Subscription"
+        "StellarSubscription": "StellarSecurity\\SubscriptionLaravel\\Facades\\Subscription",
+        "StellarSubscriptionEvent": "StellarSecurity\\SubscriptionLaravel\\Facades\\SubscriptionEvent"
       }
     }
   },
